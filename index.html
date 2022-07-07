@@ -11,34 +11,39 @@
     <center>
       <h3>Long Text Generator</h3>
       <br /><br />
+
       <div>
-        <label>String: </label>
-        <input
-          type="text"
-          name="string"
-          id="mystring"
-          placeholder="Enter a string here..."
-        /><br /><br />
+        <form>
+          <label>String: </label>
+          <input
+            type="text"
+            name="string"
+            id="mystring"
+            placeholder="Enter a string here..."
+          /><br /><br />
 
-        <label>Multiplier: </label>
-        <input
-          type="number"
-          name="multiplier"
-          id="multiplier"
-          placeholder="No of times vovels to be multiplied..."
-        /><br /><br />
+          <label>Multiplier: </label>
+          <input
+            type="number"
+            name="multiplier"
+            id="multiplier"
+            placeholder="No of times vovels to be multiplied..."
+          /><br /><br />
 
-        <input
-          type="button"
-          value="Elongate"
-          onclick="elongate()"
-        /><br /><br />
-        <input
-          type="reset"
-          value="Reset"
-          onclick="document.getElementById('result').innerHTML = 'Result will be displayed here...'"
-        /><br /><br />
-        <h1 id="result">Result will be displayed here...</h1>
+          <input
+            type="button"
+            value="Elongate"
+            onclick="elongate()"
+          /><br /><br />
+
+          <input
+            type="reset"
+            value="Reset"
+            onclick="document.getElementById('result').innerHTML = 'Result will be displayed here...'"
+          /><br /><br />
+
+          <h1 id="result">Result will be displayed here...</h1>
+        </form>
       </div>
     </center>
     <script src="script.js"></script>
