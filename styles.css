@@ -1,0 +1,17 @@
+h3 {
+    color: blueviolet;
+    text-align: center;
+}
+
+div {
+    border: 5px solid red;
+    text-align: center;
+    padding: 5%;
+    display: inline-block;
+}
+
+h1 {
+    border: 2px solid green;
+    background-color: black;
+    color: green;
+}
